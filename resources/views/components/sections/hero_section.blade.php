@@ -8,39 +8,39 @@
         <div class="carousel-inner" role="listbox">
 
           <!-- Slide 1 -->
-          <div class="carousel-item active" style="background-image: url({{asset('img/slide/image1.jpg')}});">
+          <div class="carousel-item active" style="background-image: url({{asset('img/slide/reloj.jpg')}});">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Grow Your Business</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">Accesorios de belleza</h2>
+                <p class="animate__animated animate__fadeInUp">Siéntete tranquila, desde tu hogar puedes adquirir los accesorios que necesites. S-Home te da la oportunidad de escoger tu favorito desde nuestra plataforma en nuestra seccion de accesrios y belleza.</p>
                 <div>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Acerca de S-Home</a>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url({{asset('img/slide/image2.jpg')}});">
+          <div class="carousel-item" style="background-image: url({{asset('img/slide/tenis.jpg')}});">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">Encuntra variedad de calzado para ti</h2>
+                <p class="animate__animated animate__fadeInUp">Encuentra en la categoria de calzado la variedad de zapatos que desees comprar al alto y menor costo desde la comodidad de tu hogar, reserva ya tu par de zapatos favoritos para esta temporada.</p>
                 <div>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Más información</a>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- Slide 3 -->
-          <div class="carousel-item" style="background-image: url({{asset('img/slide/image3.jpg')}});">
+          <div class="carousel-item" style="background-image: url({{asset('img/slide/electronicos.jpg')}});">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">Todo sobre tecnologia</h2>
+                <p class="animate__animated animate__fadeInUp">En esta categoria puedes encontrar todos los elementos que necesites para tu oficina, audifonos, teclados, tablets, etc., encuentra elementos esenciales para jugadores.</p>
                 <div>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Más información</a>
                 </div>
               </div>
             </div>

@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 #header .logo a {
-  color: #69a4ac;
+  color: white;
 }
 #header .logo img {
   max-height: 40px;
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #69a4ac;
+  background-color: #FFA92D;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -150,11 +150,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
-  border: 2px solid #69a4ac;
+  border: 2px solid #FFA92D;
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #69a4ac;
+  background: #FFA92D;
 }
 .navbar .getstarted:hover:before, .navbar li:hover > .getstarted:before {
   visibility: hidden;
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #69a4ac;
+  color: #FFA92D;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2a2a2a;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #69a4ac;
+  color: #FFA92D;
 }
 .navbar-mobile > ul > li {
   white-space: nowrap;
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #69a4ac;
+  color: #FFA92D;
   padding-left: 15px;
 }
 .navbar-mobile .dropdown ul {
@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 #hero h2 span {
-  color: #69a4ac;
+  color: #FFA92D;
 }
 #hero p {
   width: 80%;
@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #69a4ac;
+  background: #FFA92D;
 }
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
@@ -442,12 +442,12 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   text-transform: uppercase;
-  border: 2px solid #69a4ac;
-  background: #69a4ac;
+  border: 2px solid #FFA92D;
+  background: #FFA92D;
 }
 #hero .btn-get-started:hover {
-  background: #69a4ac;
-  border-color: #69a4ac;
+  background: #ec8b04;
+  border-color: #ec8b04;
   color: #fff;
 }
 @media (max-width: 768px) {
