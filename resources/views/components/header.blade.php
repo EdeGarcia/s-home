@@ -31,8 +31,22 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Iniciar Sesión</a></li>
+          <li><a class="  nav-link scrollto" href="#contact">Contact</a></li>
+          @if (auth()->check())
+            <li class="mx-8 ">
+              <p class="text-xl" > Bienvenido <b>{{ auth()->user()->name}}</b></p>
+            </li>
+            <li>
+              <a href="{{route('login.destroy')}}" class="getstarted scrollto"> Cerrar Sesión</a>
+            </li>
+          @else
+            <li class="mx-6">
+            <a href="{{route('login')}}" class="">Iniciar Sesión </a>
+            </li>
+          <li>
+            <a href="{{route('registrar')}}" class="getstarted scrollto"> Registrarse</a>
+          </li>
+          @endif
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

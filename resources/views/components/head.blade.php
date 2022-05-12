@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
   
-    <title>S-Home</title>
+    <title>@yield('title')</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
   
@@ -20,7 +20,8 @@
     <link href="{{asset('vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
     <link href="{{asset('vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
     <link href="{{asset('vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css">
+
     <!-- Template Main CSS File -->
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
 </head>
