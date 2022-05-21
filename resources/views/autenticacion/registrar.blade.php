@@ -25,8 +25,9 @@
         @error('password')
             <p class="border border-red-500 rounded-md bg-red-100 w-full text-red-600 p-2 my-2">* {{$message}}</p>
         @enderror
-        <input type="password" class="border border-gray-200 rounded-md bg-gray-200 w-full text-lg placeholder-gray-500 p-2 my-2 focus:bg-white" placeholder="Confirmar contraseña" id="confirm_password" name="confirm_password">
+        <input type="password" class="border border-gray-200 rounded-md bg-gray-200 w-full text-lg placeholder-gray-500 p-2 my-2 focus:bg-white" placeholder="Confirmar contraseña" id="password_confirmation" name="password_confirmation">
 
+        <input type="text" name="rol" id="rol" value="1">
        
         <button type="submit" class="rounded-md w-full text-lg text-white font-semibold p-2 my-3" style="background-color: #FFA92D;">Registrarse</button>
     </form>

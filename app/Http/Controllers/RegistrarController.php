@@ -17,8 +17,9 @@ class RegistrarController extends Controller
             'email' => 'required',
             'name' => 'required',
             'password' => 'required|confirmed'
+            
         ]);
-        $usuario = User::create(request(['name', 'email', 'password']));
+        $usuario = User::create(request(['name', 'email', 'password','rol']));
         auth()->login($usuario);
         return redirect()->to('/');
     }

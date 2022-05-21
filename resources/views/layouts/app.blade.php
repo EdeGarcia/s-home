@@ -7,7 +7,7 @@
 <body class="bg-gray-100 text-gray-800">
     <header id="header" class="fixed-top d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
-            <h1 class="logo"><a href="index.html">S-HOME</a></h1>
+            <h1 class="logo"><a href="{{route('home')}}">S-HOME</a></h1>
             <nav class="navbar" id="navbar">
                
                 <ul class="w-1/2 px-16 ml-auto flex justify-end pt-1">
