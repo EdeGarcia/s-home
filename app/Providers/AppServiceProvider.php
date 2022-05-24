@@ -3,7 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-
+use App\Models\Menu;
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -23,6 +23,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        view()->composer('template', function($view){
+            $view->with('menu', Menu::menu());
+        });
     }
 }

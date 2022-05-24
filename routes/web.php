@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegistrarController;
-
+use Illuminate\Support\Facades\DB;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +19,10 @@ use App\Http\Controllers\RegistrarController;
 //     return view('template');
 // })->name('home');
 Route::get('/', function () {
+        // $menu = DB::table('menu')->where('MENU_DISPONIBLE', 1)
+        //                         ->orderBy('MENU_PADRE')
+        //                         ->orderBy('MENU_ORDEN')
+        //                         ->orderBy('MENU_NOMBRE')->get();
          return view('template');
      })->name('home');
 
